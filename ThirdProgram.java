@@ -2,7 +2,7 @@ package com.log4jExample;
 
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
+// import org.apache.log4j.PropertyConfigurator;
 
 public class ThirdProgram {
 	
@@ -12,12 +12,13 @@ public class ThirdProgram {
    	       System.out.println("start");
    	       String a=null;
    	       try{
-   	    	   
+   	    	   System.out.println(a.length());
    	       }
    	       catch(NullPointerException e){
    	    	   log.error("error occure",e);
    	       }
    	       System.out.println("end");
+   	       System.out.println("end end");
     }
 
 }
