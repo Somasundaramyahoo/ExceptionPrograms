@@ -10,7 +10,7 @@ public class FirstProgram {
     	 log.info("Information");
     	 log.warn("warning");
     	 log.error("error occures");
-    	 log.fatal("critical error");
+    	 log.fatal("New critical error");
     	 log.debug("debugging the error ");
     	 
      }
